@@ -14,7 +14,7 @@
 }
 
 body{
-background: var(--background-color)
+background-color: var(--background-color);
 }
 
 section{
@@ -22,6 +22,7 @@ section{
     width: 100%;
     height: 150vh;
     overflow: hidden;
+    background-color: var(--background-color);
 }
 section::before{
     content: '';
@@ -39,14 +40,17 @@ section img{
     max-width: 100%;
 
 }
+
+.sec{
+    background-color: var(--background-color);
+    position: relative;
+    padding: 100px 100px 20px 100px;
+    text-align: center;
+}
+
 .espuki{
     align-items: center;
     margin-bottom: 7rem;
-}
-.sec{
-    position: relative;
-    padding: 100px;
-    text-align: center;
 }
 
 .sec h2{
@@ -57,7 +61,15 @@ section img{
 
 .sec p{
     color: var(--white-color);
-font-size: 1.2em;
-line-height: 1.5em;
-font-family: consolas;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: consolas;
+}
+
+.footer-section {
+    height: 30vh;
+}
+
+.footer {
+    color: var(--orange-color)
 }
